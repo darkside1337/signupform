@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <section class="section1">
+            <div class="left-container">
+                <img class="logo-img"
+                    src="https://www.edigitalagency.com.au/wp-content/uploads/apple-logo-png-black.png"
+                    alt="apple logo">
+                <h1>ODIN</h1>
+            </div>
+        </section>
+        <section class="section2">
+            <section class="upper">
+                <p class="p-upper">This is not a real online service! You know you need something like this in your life
+                    to help you realize your deepest
+                    dreams. <br>
+                    <br>
+                    Sign up now to get started.
+                </p>
+            </section>
+            <section class="middle">
+                <form action="*" method="post">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div class="wrapper">
+                            <div class="left">
+                                <label for="firstname" class="required">FIRST NAME</label>
+                                <input type="text" name="firstname" id="firstname" required>
+                                <label for="email" class="required">EMAIL</label>
+                                <input type="email" name="email" id="email" required>
+                                <label for="password" class="required">PASSWORD</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="right">
+                                <label for="lastname" class="required">LAST NAME</label>
+                                <input type="text" name="lastname" id="lastname" required>
+                                <label for="phonenumber" class="required">PHONE NUMBER</label>
+                                <input type="tel" name="phonenumber" id="phonenumber" required>
+                                <label for="confirmPassword" class="required">CONFIRM PASSWORD</label>
+                                <input type="password" placeholder="password" name="confirmPassword"
+                                    id="confirmPassword" required>
+
+                            </div>
+                        </div>
+                        <div class="errorField">Passwords do not match!, please try again!</div>
+                    </fieldset>
+            </section>
+            <section class="lower">
+                <input type="button" class="createButton" value="Create Account">
+                <p>Already have an account? <span>Log in</span></p>
+                </form>
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
